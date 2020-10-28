@@ -52,9 +52,18 @@ nav.container a {
 nav.container a:hover {
   color: #006AFF;
 }
+
 .burger_icon_wrapper {
   color: #006AFF;
   font-size: 20px;
 }
 
+.header_bottom {
+  height: 600px;
+  border: 1px solid red;
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* FONT COLOR */

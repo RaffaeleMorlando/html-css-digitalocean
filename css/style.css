@@ -1,0 +1,60 @@
+/* debug */
+.debug .img_wrapper_logo {
+  /* border: 1px solid red; */
+}
+
+/* BACKGROUND COLORS */
+.bg_gray {
+  background-color: #F2F5F9;
+}
+.bg_white {
+  background-color: #ffffff;
+}
+
+/* BUTTONS */
+.bnt_white_text_blue {
+  color: #006AFF;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-color: #006AFF;
+}
+.bnt_white_text_blue:hover {
+  color: #ffffff;
+  background-color: #006AFF;
+}
+
+/* HEADER */
+.header_top nav {
+  height: 90px;
+  line-height: 90px;
+  border: 1px solid blue;
+}
+nav [class*="col-"] {
+  vertical-align: middle;
+}
+
+.img_wrapper_logo {
+  margin-bottom: 10px;
+}
+.img_wrapper_logo img {
+  max-width: 180px;
+}
+
+.nav_center i,
+.nav_right i {
+  padding-left: 2px;
+}
+
+nav.container a {
+  color: hsl(221,93%,16%);
+  text-decoration: none;
+}
+nav.container a:hover {
+  color: #006AFF;
+}
+.burger_icon_wrapper {
+  color: #006AFF;
+  font-size: 20px;
+}
+
+/* FONT COLOR */

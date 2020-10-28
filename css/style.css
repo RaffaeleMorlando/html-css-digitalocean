@@ -1,9 +1,28 @@
 /* debug */
-.debug .img_wrapper_logo {
-  /* border: 1px solid red; */
+.debug {
+
 }
 
-/* BACKGROUND COLORS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADING */
+h1 {
+  font-size: 68px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+p {
+  font-size: 24px;
+}
+
+/* BACKGROUND-COLORS */
 .bg_gray {
   background-color: #F2F5F9;
 }
@@ -21,13 +40,19 @@
 .bnt_white_text_blue:hover {
   color: #ffffff;
   background-color: #006AFF;
+  transition: 0.4s ease-in-out;
 }
 
 /* HEADER-TOP */
+.header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 .header_top nav {
   height: 90px;
   line-height: 90px;
-  /* border: 1px solid blue; */
 }
 nav [class*="col-"] {
   vertical-align: middle;
@@ -58,7 +83,6 @@ nav.container a:hover {
   font-size: 20px;
 }
 
-
 /* HEADER-BOTTOM */
 .header_bottom {
   height: 600px;
@@ -66,16 +90,83 @@ nav.container a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 100px;
 }
 
-#jumbotron {
+#jumbotron,
+#jumbotron .row,
+.row > div {
   height: 100%;
 }
-#jumbotron > div:first-child {
-  height: 100%;
+.jumbotron-text {
+  padding: 0px 20px;
 }
-.jumbotron-text{
+.jumbotron-text,
+.white_box {
   position: absolute;
-  top: 50;
+  top: 50%;
   transform: translateY(-50%);
+}
+
+.white_box {
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.form_wrapper {
+  padding: 20px;
+}
+.form_wrapper h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.form_wrapper h3 span {
+  color: #006AFF;
+}
+.form_group input {
+  border: 1px solid gray;
+  box-shadow: none;
+  outline: #006AFF;
+}
+.form_wrapper button {
+  position: relative;
+  width: 100%;
+  margin: 3px;
+}
+.form_wrapper button img {
+  position: absolute;
+  left: 0;
+  max-width: 25px;
+  padding-left: 5px;
+}
+.form_wrapper > p {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+.form_wrapper a {
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  h1 {
+    font-size: 52px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 767px) {
+
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .header_bottom {
+    margin-top: 100px;
+  }
+
 }

@@ -70,11 +70,9 @@ nav.container a:hover {
 
 #jumbotron {
   height: 100%;
-  position: relative;
 }
 #jumbotron > div:first-child {
   height: 100%;
-  position: relative;
 }
 .jumbotron-text{
   position: absolute;

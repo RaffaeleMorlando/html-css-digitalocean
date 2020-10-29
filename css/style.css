@@ -292,6 +292,18 @@ nav.container a:hover {
   cursor: pointer;
 }
 
+/* FEATURES */
+
+.features {
+  padding: 50px 0;
+}
+
+.boxes_features {
+  width: 33.33%;
+  float: left;
+  padding: 40px 20px;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
   h1 {
@@ -341,5 +353,12 @@ nav.container a:hover {
   }
   .boxes_deploy p {
     font-size: 16px;
+  }
+
+  /* FEATURES */
+  .boxes_features {
+    width: 100%;
+    float: none;
+    padding: 10px 20px;
   }
 }

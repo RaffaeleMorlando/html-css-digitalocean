@@ -1,20 +1,42 @@
 /* debug */
-.debug .col-lg-12{
+.debug .col-xs-12{
+  /* border: 1px solid red; */
+}
+.clearfix::after {
+  content: "";
+  display: table-caption;
+  clear: both;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
 /* font-family: 'Roboto', sans-serif; */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Fira Sans', sans-serif;
 }
 
-/* HEADING */
+/* HEADINGS */
 h1 {
-  font-size: 68px;
-  font-weight: 500;
+  font-size: 65px;
+  font-weight: 600;
   color: #ffffff;
+}
+h2 {
+  color: #031b4e;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #031b4e;
+}
+
+p {
+  color: #5b6987;
 }
 
 
@@ -124,6 +146,7 @@ nav.container a:hover {
 .form_wrapper h3 {
   font-size: 30px;
   font-weight: 500;
+  color: #031b4e;
 }
 .form_wrapper h3 span {
   color: #006AFF;
@@ -182,7 +205,21 @@ nav.container a:hover {
 
 /* DEPLOY / SCALE */
 
+.border_blue {
+  border-left: 2px solid lightgray;
+  padding: 10px;
+}
+.border_blue:hover {
+  border-left: 2px solid blue;
+  cursor: pointer;
+}
 
+.boxes_deploy {
+  /* border: 1px solid blue; */
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
@@ -196,6 +233,14 @@ nav.container a:hover {
   }
   .logos_wrapper img {
     max-width: 110px;
+  }
+
+  /* DEPLOY / SCALE */
+  .boxes_deploy {
+    /* border: 1px solid blue; */
+    width: 50%;
+    float: left;
+    padding: 10px;
   }
 
 }
@@ -217,4 +262,13 @@ nav.container a:hover {
     max-width: 90px;
   }
 
+  /* DEPLOY / SCALE */
+
+  .boxes_deploy {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .boxes_deploy p {
+    font-size: 16px;
+  }
 }

@@ -35,6 +35,17 @@ h5 {
   color: #031b4e;
 }
 
+/* FONTSIZE P */
+.p_small{
+
+}
+.p_medium {
+  font-size: 20px;
+}
+.p_large {
+  font-size: 24px;
+}
+
 p {
   color: #5b6987;
 }
@@ -204,10 +215,13 @@ nav.container a:hover {
 }
 
 /* DEPLOY / SCALE */
-
+.deploy_scale .row > div:first-child {
+  padding: 30px 20px;
+}
 .border_blue {
   border-left: 2px solid lightgray;
-  padding: 10px;
+  padding: 15px 20px;
+  font-size: 16px;
 }
 .border_blue:hover {
   border-left: 2px solid blue;
@@ -215,7 +229,6 @@ nav.container a:hover {
 }
 
 .boxes_deploy {
-  /* border: 1px solid blue; */
   width: 50%;
   float: left;
   padding: 10px;

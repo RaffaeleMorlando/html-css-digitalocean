@@ -1,6 +1,6 @@
 /* debug */
 .debug .col-xs-12{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .clearfix::after {
   content: "";
@@ -216,7 +216,7 @@ nav.container a:hover {
 
 /* DEPLOY / SCALE */
 .deploy_scale {
-  padding: 50px;
+  padding: 50px 0;
 }
 .deploy_scale .row > div:first-child {
   padding: 30px 20px;
@@ -239,18 +239,56 @@ nav.container a:hover {
 
 /* DESIGN */
 .designed_developers {
-  padding: 50px;
+  padding: 50px 0;
 }
 
+.designed_developers [class="col-xs-12"] {
+  padding-top: 40px;
+}
+
+.designed_developers a,
+.designed_developers .wrapper_img_carousel {
+  display: inline-block;
+
+}
+.designed_developers a {
+  width: 24%;
+  text-align: center;
+
+}
 .wrapper_img_carousel {
-
-}
-.designed_developers img {
-  border: 1px solid red;
-  width: 500px;
-  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  vertical-align: middle;
 }
 
+.wrapper_img_carousel img {
+  width: 100%;
+}
+.wrapper_img_carousel p {
+  padding-top: 20px;
+  font-weight: bold;
+  color: #031b4e;
+}
+
+.carousel_point_page {
+  height: 20px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.point_blue {
+  display: inline-block;
+  width: 10px;
+  height: 50%;
+  border: 1px solid blue;
+  border-radius: 100%;
+}
+.point_blue:first-child {
+  background: blue;
+}
+.point_blue:hover {
+  cursor: pointer;
+}
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 

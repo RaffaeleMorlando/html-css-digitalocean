@@ -1,6 +1,6 @@
 /* debug */
 .debug .col-xs-12{
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .clearfix::after {
   content: "";
@@ -37,7 +37,7 @@ h5 {
 
 /* FONTSIZE P */
 .p_small{
-
+  font-size: 16px;
 }
 .p_medium {
   font-size: 20px;
@@ -215,6 +215,9 @@ nav.container a:hover {
 }
 
 /* DEPLOY / SCALE */
+.deploy_scale {
+  padding: 50px;
+}
 .deploy_scale .row > div:first-child {
   padding: 30px 20px;
 }
@@ -233,6 +236,21 @@ nav.container a:hover {
   float: left;
   padding: 10px;
 }
+
+/* DESIGN */
+.designed_developers {
+  padding: 50px;
+}
+
+.wrapper_img_carousel {
+
+}
+.designed_developers img {
+  border: 1px solid red;
+  width: 500px;
+  margin: 0 auto;
+}
+
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 

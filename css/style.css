@@ -249,8 +249,8 @@ nav.container a:hover {
 .designed_developers a,
 .designed_developers .wrapper_img_carousel {
   display: inline-block;
-
 }
+
 .designed_developers a {
   width: 24%;
   text-align: center;
@@ -347,6 +347,43 @@ nav.container a:hover {
 .regions_test a:hover {
   color: blue;
 }
+
+/* DEVELOPMENTS */
+
+.development_teams {
+  padding: 50px 0;
+}
+
+.development_teams a {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid red;
+}
+.development_teams a i {
+  font-size: 40px;
+  color: #031b4e;
+}
+
+.development_teams .wrapper_box_carousel {
+  width: 50%;
+  height: 300px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid blue;
+}
+
+/* --------- ------------*/
+
+/* .debug_box {
+  width: 33%;
+  height: 300px;
+  border: 1px solid red;
+  display: inline-block;
+} */
+
+
+/* --------- ------------*/
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 

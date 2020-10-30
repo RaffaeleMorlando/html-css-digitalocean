@@ -49,6 +49,7 @@ p {
 
 
 /* BACKGROUND-COLORS */
+
 .bg_gray {
   background-color: #F2F5F9;
 }
@@ -58,7 +59,9 @@ p {
 .bg_dark_blue {
   background-color: #010F28;
 }
+
 /* BUTTONS */
+
 .btn_white_text_blue {
   color: #006AFF;
   font-weight: bold;
@@ -72,6 +75,7 @@ p {
 }
 
 /* LINK-SECTIONS */
+
 .link_blue {
   font-size: 18px;
   text-decoration: none;
@@ -87,6 +91,7 @@ p {
 }
 
 /* HEADER-TOP */
+
 .header_top {
   position: fixed;
   top: 0;
@@ -94,19 +99,18 @@ p {
   width: 100%;
   z-index: 1;
 }
+
 .header_top nav {
   height: 60px;
   line-height: 60px;
 }
+
 nav [class*="col-"] {
   vertical-align: middle;
 }
 
-.img_wrapper_logo {
-  margin-bottom: 10px;
-}
-.img_wrapper_logo img {
-  max-width: 150px;
+.header_top .img_wrapper_logo img {
+  max-width: 140px;
 }
 
 .nav_center i,
@@ -128,6 +132,7 @@ nav.container a:hover {
 }
 
 /* HEADER-BOTTOM */
+
 .header_bottom {
   background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
   background-size: cover;
@@ -194,6 +199,7 @@ nav.container a:hover {
 }
 
 /* COSTUMERS*/
+
 .costumer_logos {
   padding: 60px 20px;
 }
@@ -206,14 +212,18 @@ nav.container a:hover {
 .logos_wrapper {
   padding: 25px 0;
 }
+.logos_wrapper ul {
+  font-size: 0px;
+}
 .logos_wrapper li {
-  margin: 0 15px;
+  width: calc(100% / 6);
 }
 .logos_wrapper img {
-  /* max-width: 180px; */
+  max-width: 100%;
 }
 
 /* DEPLOY / SCALE */
+
 .deploy_scale {
   padding: 50px 0;
 }
@@ -237,6 +247,7 @@ nav.container a:hover {
 }
 
 /* DESIGN */
+
 .designed_developers {
   padding: 50px 0;
 }
@@ -349,6 +360,10 @@ nav.container a:hover {
 
 /* DEVELOPMENTS */
 
+.development_teams > .container > .row > [class="col-xs-12"] {
+  padding-top: 30px;
+}
+
 .development_teams {
   padding: 50px 0;
 }
@@ -417,6 +432,9 @@ nav.container a:hover {
 
 
 /* FOOTER */
+.wrapper_footer {
+  padding: 50px 0;
+}
 
 footer [class*="col-xs-12"] {
   background-color: #010F28;
@@ -440,25 +458,21 @@ footer [class*="col-xs-12"] a:hover {
 }
 
 
-
 /* MD */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  /* HEADER TOP */
 
   h1 {
     font-size: 52px;
     font-weight: 500;
     color: #ffffff;
   }
-  .logos_wrapper li {
-    margin: 0;
-  }
-  .logos_wrapper img {
-    max-width: 110px;
-  }
 
   /* DEPLOY / SCALE */
+
   .boxes_deploy {
-    /* border: 1px solid blue; */
     width: 50%;
     float: left;
     padding: 10px;
@@ -467,7 +481,10 @@ footer [class*="col-xs-12"] a:hover {
 }
 
 /* XS */
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 991px) {
+
+  /* HEADER TOP */
 
   h1 {
     font-size: 30px;
@@ -475,34 +492,38 @@ footer [class*="col-xs-12"] a:hover {
     color: #ffffff;
   }
 
+  /* HEADER BOTTOM */
+
   .header_bottom {
     margin-top: 100px;
   }
 
-  .logos_wrapper li {
-    margin: 0;
-  }
-  .logos_wrapper img {
-    max-width: 50%;
-  }
 
   /* COSTUMERS */
-  .costumer_logos .logos_wrapper img {
-    border: 1px solid red;
+
+  .logos_wrapper ul {
+    font-size: 0px;
+  }
+  .logos_wrapper li {
+    width: calc(100% / 2);
+  }
+  .logos_wrapper img {
+    max-width: 100%;
   }
 
-  .costumer_logos .logos_wrapper
+
   /* DEPLOY / SCALE */
 
   .boxes_deploy {
     width: 100%;
-    /* border: 1px solid red; */
   }
+
   .boxes_deploy p {
     font-size: 16px;
   }
 
   /* FEATURES */
+
   .boxes_features {
     width: 100%;
     float: none;
@@ -516,6 +537,7 @@ footer [class*="col-xs-12"] a:hover {
   }
 
   /* CTA */
+
   .CTA {
     text-align: center;
   }

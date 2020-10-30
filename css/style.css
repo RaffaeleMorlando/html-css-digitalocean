@@ -457,6 +457,45 @@ footer [class*="col-xs-12"] a:hover {
   text-decoration: none;
 }
 
+/* HELPER */
+
+.wrapper_helper {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 750px;
+  height: 150px;
+  z-index: 1;
+}
+
+.wrapper_helper [class*="col-xs-6"]:first-child {
+  position: relative;
+  padding: 30px 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2),
+             -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+.square {
+  position: absolute;
+  right: -5px;
+  top: 40%;
+  transform: translateY(-40%);
+  transform: rotate(45deg);
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+.wrapper_helper [class*="col-xs-6"]:last-child img {
+  max-width: 100px;
+  background-color: rgba(44, 33, 247, 0.09);
+  border-radius: 5px;
+  margin-left: 10px;
+  box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2),
+             -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 /* MD */
 

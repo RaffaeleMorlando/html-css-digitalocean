@@ -28,7 +28,6 @@ h2 {
   font-weight: 600;
   text-align: center;
 }
-
 h5 {
   font-size: 18px;
   font-weight: 600;
@@ -60,13 +59,13 @@ p {
 }
 
 /* BUTTONS */
-.bnt_white_text_blue {
+.btn_white_text_blue {
   color: #006AFF;
   font-weight: bold;
   background-color: #ffffff;
   border-color: #006AFF;
 }
-.bnt_white_text_blue:hover {
+.btn_white_text_blue:hover {
   color: #ffffff;
   background-color: #006AFF;
   transition: 0.4s ease-in-out;
@@ -393,8 +392,30 @@ nav.container a:hover {
   margin-bottom: 20px;
 }
 
+.box_carousel p:first-of-type {
+  padding: 30px 20px;
+}
+
 /* CTA */
 
+.CTA {
+  background-image: url("../img/bg-home-cta.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CTA [class*="col-xs-12"] {
+  padding: 50px 0;
+  font-size: 30px;
+}
+
+.CTA p {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* MD */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
   h1 {
@@ -418,6 +439,8 @@ nav.container a:hover {
   }
 
 }
+
+/* XS */
 @media screen and (max-width: 767px) {
 
   h1 {
@@ -425,6 +448,7 @@ nav.container a:hover {
     font-weight: 500;
     color: #ffffff;
   }
+
   .header_bottom {
     margin-top: 100px;
   }
@@ -436,6 +460,12 @@ nav.container a:hover {
     max-width: 90px;
   }
 
+  /* COSTUMERS */
+  .costumer_logos .logos_wrapper img {
+    border: 1px solid red;
+  }
+
+  .costumer_logos .logos_wrapper
   /* DEPLOY / SCALE */
 
   .boxes_deploy {
@@ -457,5 +487,14 @@ nav.container a:hover {
 
   .service_regions {
     font-size: 10px;
+  }
+
+  /* CTA */
+  .CTA {
+    text-align: center;
+  }
+
+  .btn_CTA {
+    text-align: center;
   }
 }

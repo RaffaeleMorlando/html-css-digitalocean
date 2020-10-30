@@ -489,7 +489,7 @@ footer [class*="col-xs-12"] a:hover {
 
 .wrapper_helper [class*="col-xs-6"]:last-child img {
   max-width: 100px;
-  background-color: rgba(44, 33, 247, 0.09);
+  background-color: rgba(#0061ff, 0.28);
   border-radius: 5px;
   margin-left: 10px;
   box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2),

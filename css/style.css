@@ -492,12 +492,13 @@ footer [class*="col-xs-12"] a:hover {
     font-size: 30px;
     font-weight: 500;
     color: #ffffff;
+    text-align: center;
   }
 
   /* HEADER BOTTOM */
 
   .header_bottom {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
 

@@ -167,7 +167,6 @@ nav.container a:hover {
   color: #006AFF;
 }
 .form-group input {
-  /* border: 1px solid red; */
   box-shadow: none;
   outline: #006AFF;
   padding: 20px;
@@ -180,7 +179,6 @@ nav.container a:hover {
   position: relative;
   width: 100%;
   margin: 3px;
-  box-shadow: 2px 2px 7px 1px #7F7F7F;
 }
 .form_wrapper button img {
   position: absolute;

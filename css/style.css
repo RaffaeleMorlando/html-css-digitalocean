@@ -7,7 +7,6 @@
 }
 
 body {
-  /* font-family: 'Roboto', sans-serif; */
   font-family: 'Fira Sans', sans-serif;
 }
 
@@ -134,7 +133,9 @@ nav.container a:hover {
 /* HEADER-BOTTOM */
 
 .header_bottom {
-  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-image: url("../img/bg-home-3.svg");
+  /* BACKGROUND-ANIMATE */
+  /* background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,9 +145,9 @@ nav.container a:hover {
 
 .jumbotron-text p {
   padding: 10px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: lighter;
-  color: rgba(255, 255, 255, 0.48);
+  color: #FFFFFF;
 }
 
 .white_box {

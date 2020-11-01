@@ -73,6 +73,22 @@ p {
   transition: 0.4s ease-in-out;
 }
 
+.btn_blue_text_white {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #006AFF;
+}
+.btn_blue_text_white:hover {
+  background-color: #ffffff;
+  border-color: #006AFF;
+  color: #006AFF;
+  transition: 0.4s ease-in-out;
+}
+
+.border_white {
+  border-color: #ffffff;
+}
+
 /* LINK-SECTIONS */
 
 .link_blue {
@@ -96,12 +112,14 @@ p {
   top: 0;
   left: 0;
   width: 100%;
+
   z-index: 1;
 }
 
 .header_top nav {
-  height: 60px;
+  height: 50px;
   line-height: 60px;
+  padding-top: 10px;
 }
 
 nav [class*="col-"] {
@@ -247,7 +265,7 @@ nav.container a:hover {
   padding: 10px;
 }
 
-/* DESIGN */
+/* DESIGNED */
 
 .designed_developers {
   padding: 50px 0;

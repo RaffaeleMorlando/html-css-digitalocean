@@ -112,7 +112,6 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-
   z-index: 1;
 }
 
@@ -201,8 +200,10 @@ nav.container a:hover {
 }
 .form_wrapper button img {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0;
-  max-width: 25px;
+  max-width: 27px;
   padding-left: 5px;
 }
 
@@ -488,7 +489,6 @@ footer [class*="col-xs-12"] a:hover {
     font-weight: 500;
     color: #ffffff;
   }
-
   /* DEPLOY / SCALE */
 
   .boxes_deploy {
@@ -510,6 +510,9 @@ footer [class*="col-xs-12"] a:hover {
     font-weight: 500;
     color: #ffffff;
     text-align: center;
+  }
+  .header_top nav {
+    padding-top: 0;
   }
 
   /* HEADER BOTTOM */
